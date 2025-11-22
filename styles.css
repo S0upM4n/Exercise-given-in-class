@@ -1,0 +1,208 @@
+.fdad{
+    height: 100vh;
+    width: 70vw;
+    background-color: skyblue;
+    border: solid black 2px;
+    flex-direction: row;
+    display: flex;
+    margin: auto;  
+    align-items: center;
+    justify-content: space-around;
+
+
+}.f1{
+    height: 30%;
+    width: 20%;
+    background-color: thistle;
+    border:double burlywood 2px
+}.f2{
+    height: 10%;
+    width: 30%;
+    background-color: teal;
+    border: dotted seashell 2px;
+    align-self: end;
+}
+.fixed{
+    background-image: url(https://media.tenor.com/PsnjUvDj-x4AAAAM/freddy-fazbear.gif);
+    background-size: cover;
+    background-position: center center;
+   background-repeat: no-repeat;
+    height:  120px;
+    width: 120px;
+    right: 20px;
+    top:50vh;
+    border: blue 2px double;
+    border-radius: 50% ;
+    position: fixed;
+}.fixed1{
+    background-image: url(https://s2.glbimg.com/S0otrB1HTiY8j0bIOrm8ePhfdOI=/i.glbimg.com/og/ig/infoglobo1/f/original/2017/10/09/watssap.jpg);
+    background-size: cover;
+    background-position: center center;
+   background-repeat: no-repeat;
+    height:  120px;
+    width: 120px;
+    right: 20px;
+    top:20vh;
+    border: blue 2px double;
+    border-radius: 50% ;
+    position: fixed;
+}.popup{
+    width: 50vw;
+    height: 50vh;
+    position: fixed;
+    right: 25vw;
+    top:25vh;
+    background-color: antiquewhite;
+    border: solid black 2px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}.l1{
+    grid-area: 1/1/2/9;
+    background-color: whitesmoke;
+}.divX{
+    grid-area:1/8/2/9;
+    background-image: url(https://img.icons8.com/sf-regular-filled/1200/close-window.jpg);
+    background-size: cover;
+    background-position: center center;
+}.hudson{
+    grid-area: 3/5/8/9;
+    background-repeat: no-repeat;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2CxGh5QvutLmrfljNFFNfy4bGkcP7lp-PEg&s);
+}
+
+
+/* parte sticky*/
+.mãe{
+    height:  200vh;
+    width: 200vw;
+    background-color: slateblue;
+    border: black 1px solid;
+    display: flex;
+    align-items: end;
+}
+.filho{
+    position: sticky;
+    top: 10px;
+    width: 200px;
+    left:10px ;
+    bottom: 10px;
+    height: 200px;
+    background-image: url(https://media.istockphoto.com/id/695167782/pt/foto/falling-mug-of-beer.jpg?s=1024x1024&w=is&k=20&c=YNpz0_zbQmUNVVg8Jx8ynboUmSri_XYmQqd5oPIFY9E=);
+    background-size: cover;
+    background-position: center center;
+}.lula{
+    align-self: center;
+    justify-self: center;
+    background-image: url(https://cdn.discordapp.com/avatars/852697291704762369/2a713c5cdea75d477533e033652e6fef.png?size=2048);
+    border: 1px black solid;
+    background-size: cover;
+    height: 500px;
+    width: 500px;
+}.Boso{
+    align-self: center;
+    justify-self: end;
+    background-image: url(https://conteudo.imguol.com.br/c/noticias/25/2020/05/28/28mai2020---o-presidente-jair-bolsonaro-fala-com-simpatizantes-e-imprensa-em-frente-ao-palacio-da-alvorada-em-brasilia-1590675876933_v2_1x1.jpg);
+    border: 1px black solid;
+    height: 500px;
+    width: 500px;
+}
+header{
+    width: 100vw;
+    height: 100px;
+    position: sticky;
+    left: 0.1px;
+    top:0.1px;
+    background-color: burlywood;
+    border: rebeccapurple 1px double;
+    z-index: 99991;
+}body{
+    width: 200vw;
+}
+
+
+
+
+
+
+
+/* parte do relative*/
+.mae_rel{
+    width: 90vw;
+    height: 90vh;
+    display: flex;
+    background-color: silver;
+    border: 2px double rgb(30, 70, 70);
+}
+.fiorel1{
+    width: 100px;
+    height: 100px;
+    background-color: wheat;
+    border:2px solid burlywood;
+    position: relative;
+    top: 100px;
+    left: 200px;
+}.fiorel2{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    border:2px solid whitesmoke;
+    position: relative;
+    top: 200px;
+}
+
+
+
+
+
+
+
+
+.mae_abs{
+    width: 90vw;
+    height: 90vh;
+    display: flex;
+    position: sticky;
+    background-color: silver;
+    border: 2px double rgb(10, 80, 70);
+
+}
+.fioabs1{
+    width: 100px;
+    height: 100px;
+    background-color: wheat;
+    border:2px solid burlywood;
+       position: absolute;
+    left:45%;
+    top:40%
+}
+.fioabs2{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(209, 120, 17, 0.747);
+    border:2px solid burlywood;
+
+}
+.fioabs3{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(209, 120, 17, 0.747);
+    border:2px solid burlywood;
+    position: absolute;
+    top:84%
+}.fioabs4{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(209, 120, 17, 0.747);
+    border:2px solid burlywood;
+    position: absolute;
+    top:84%;
+    left:92%;
+}.fioabs5{
+       width: 100px;
+    height: 100px;
+    background-color: rgba(209, 120, 17, 0.747);
+    border:2px solid burlywood;
+    position: absolute;
+    left:92%; 
+}
